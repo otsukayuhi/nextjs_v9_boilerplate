@@ -20,7 +20,7 @@ const Layout: React.FC<LayoutProps> = ({
     <Head>
       <Meta title={title} description={description} />
     </Head>
-    <Header text="header text" />
+    <Header text={title} />
     <Contents {...{ children }} />
     <Footer text="footer text" />
   </>
